@@ -1,6 +1,6 @@
-import { IUser } from "../../common/interface/user.interface"
+// import { IUser } from "../../common/interface/user.interface"
 
-export interface ILoginResponse{
-message: string
-data? : IUser
-}
+// export interface ILoginResponse{
+// message: string
+// data? : IUser
+// }
