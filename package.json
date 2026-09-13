@@ -5,17 +5,20 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"tsc --watch\" \"node ./dist/index.js\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.9.5"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
-    "@types/node": "^26.4.1"
+    "@types/node": "^26.4.1",
+    "concurrently": "^10.0.5"
   }
 }
